@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.timer {
+  width: 280px;
+  display: flex;
+  justify-content: space-evenly;
+  outline: solid 2px goldenrod;
+  margin: 0 auto;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+} 
